@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_ariel_dimension:block/log_inner",
+    "top": "the_ariel_dimension:block/log_inner",
+    "side": "the_ariel_dimension:block/log_outer",
+    "overlay": "the_ariel_dimension:block/log_outer",
+    "particle": "the_ariel_dimension:block/log_inner"
+  },
+  "render_type": "translucent"
+}

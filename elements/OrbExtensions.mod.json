@@ -1,0 +1,15 @@
+{
+  "_fv": 43,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:SkybornOrb"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 3000.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

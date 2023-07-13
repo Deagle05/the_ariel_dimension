@@ -1,0 +1,929 @@
+{
+  "mod_elements": [
+    {
+      "name": "ArielDimensionPortal",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariel_dimension_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/ariel_dimension_portal.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/ariel_dimension_portal.json",
+          "src/main/resources/assets/the_ariel_dimension/models/block/ariel_dimension_portal.json",
+          "src/main/java/net/mcreator/thearieldimension/block/ArielDimensionPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ArielDimensionPortalFrameCraft",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariel_dimension_portal_frame_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/recipes/ariel_dimension_portal_frame_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Chalk",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/block/ChalkBlock.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/chalk.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/chalk.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/chalk.json"
+        ]
+      }
+    },
+    {
+      "name": "TheRedHeavens",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_red_heavens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/advancements/the_red_heavens.json"
+        ]
+      }
+    },
+    {
+      "name": "ArielWoodlands",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariel_woodlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/ariel_woodlands.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/placed_feature/ariel_woodlands_tree.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/configured_feature/ariel_woodlands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "ArielMountains",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariel_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/ariel_mountains.json"
+        ]
+      }
+    },
+    {
+      "name": "TheArielDimension",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ariel_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/world/teleporter/TheArielDimensionPortalShape.java",
+          "src/main/java/net/mcreator/thearieldimension/item/TheArielDimensionItem.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/the_ariel_dimension_portal_ew.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/the_ariel_dimension.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/the_ariel_dimension_portal.json",
+          "src/main/resources/assets/the_ariel_dimension/models/block/the_ariel_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/thearieldimension/block/TheArielDimensionPortalBlock.java",
+          "src/main/resources/data/the_ariel_dimension/dimension_type/the_ariel_dimension.json",
+          "src/main/java/net/mcreator/thearieldimension/world/teleporter/TheArielDimensionTeleporter.java",
+          "src/main/java/net/mcreator/thearieldimension/world/dimension/TheArielDimensionDimension.java",
+          "src/main/resources/data/the_ariel_dimension/dimension/the_ariel_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "ArielOceans",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariel_oceans",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/ariel_oceans.json"
+        ]
+      }
+    },
+    {
+      "name": "SkybornOrb",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyborn_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/SkybornOrbRenderer.java",
+          "src/main/java/net/mcreator/thearieldimension/item/SkybornOrbItem.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/skyborn_orb.json",
+          "src/main/java/net/mcreator/thearieldimension/entity/SkybornOrbEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "IHaveThePower",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_have_the_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/advancements/i_have_the_power.json"
+        ]
+      }
+    },
+    {
+      "name": "OrbExtensions",
+      "type": "itemextension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_extensions",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CrystalBeing",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_being",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/crystal_being_spawn_egg.json",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/CrystalBeingRenderer.java",
+          "src/main/java/net/mcreator/thearieldimension/entity/CrystalBeingEntity.java",
+          "src/main/resources/data/the_ariel_dimension/forge/biome_modifier/crystal_being_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SkyOrbParticle",
+      "type": "particle",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_orb_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/client/particle/SkyOrbParticleParticle.java",
+          "src/main/resources/assets/the_ariel_dimension/particles/sky_orb_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "SkybornOrbWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyborn_orb_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/SkybornOrbWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Skyborn",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyborn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/skyborn_spawn_egg.json",
+          "src/main/java/net/mcreator/thearieldimension/entity/SkybornEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/SkybornRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "FlyingBeastMilkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_beast_milk_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/FlyingBeastMilkPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyingBeastMilk",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_beast_milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/flying_beast_milk.json",
+          "src/main/java/net/mcreator/thearieldimension/item/FlyingBeastMilkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SkyGuard",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_guard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/SkyGuardRenderer.java",
+          "src/main/java/net/mcreator/thearieldimension/entity/SkyGuardEntity.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/sky_guard_spawn_egg.json",
+          "src/main/resources/data/the_ariel_dimension/forge/biome_modifier/sky_guard_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LostWorldPortal",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_world_portal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/block/LostWorldPortalBlock.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/lost_world_portal.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/lost_world_portal.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/lost_world_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "LostJungle",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/lost_jungle.json",
+          "src/main/java/net/mcreator/thearieldimension/world/features/treedecorators/LostJungleFruitDecorator.java",
+          "src/main/resources/data/the_ariel_dimension/worldgen/configured_feature/lost_jungle_tree.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/placed_feature/lost_jungle_tree.json",
+          "src/main/java/net/mcreator/thearieldimension/world/features/treedecorators/LostJungleLeaveDecorator.java",
+          "src/main/java/net/mcreator/thearieldimension/world/features/treedecorators/LostJungleTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "LostDesert",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/lost_desert.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/configured_feature/lost_desert_tree.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/placed_feature/lost_desert_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSavannah",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_savannah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/worldgen/biome/lost_savannah.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/configured_feature/lost_savannah_tree.json",
+          "src/main/resources/data/the_ariel_dimension/worldgen/placed_feature/lost_savannah_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/AcidMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/block/AcidBlock.java",
+          "src/main/java/net/mcreator/thearieldimension/fluid/types/AcidFluidType.java",
+          "src/main/java/net/mcreator/thearieldimension/item/AcidItem.java",
+          "src/main/java/net/mcreator/thearieldimension/fluid/AcidFluid.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/acid.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/acid_bucket.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/acid.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidUpdateTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/AcidUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireBullet",
+      "type": "rangeditem",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/item/FireBulletItem.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/fire_bullet.json",
+          "src/main/java/net/mcreator/thearieldimension/entity/FireBulletEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/FireBulletRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherBeast",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_beast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/NetherBeastRenderer.java",
+          "src/main/java/net/mcreator/thearieldimension/entity/NetherBeastEntity.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/nether_beast_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TrollGiant",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/TrollGiantEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/TrollGiantRenderer.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/troll_giant_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SkybornGiant",
+      "type": "livingentity",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyborn_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/SkybornGiantEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/SkybornGiantRenderer.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/skyborn_giant_spawn_egg.json",
+          "src/main/resources/data/the_ariel_dimension/forge/biome_modifier/skyborn_giant_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MadnessEffectExpires",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madness_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/MadnessEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoomedEffectExpires",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomed_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/DoomedEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doomed",
+      "type": "potioneffect",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doomed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/potion/DoomedMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MadmanVirus",
+      "type": "potion",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madman_virus",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Flying",
+      "type": "potioneffect",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/potion/FlyingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "FlyingProcedure",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/FlyingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyingPotion",
+      "type": "potion",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MadmanInfectedOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madman_infected_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/MadmanInfectedOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MadmanInfected",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madman_infected",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/forge/biome_modifier/madman_infected_biome_modifier.json",
+          "src/main/java/net/mcreator/thearieldimension/entity/MadmanInfectedEntity.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/madman_infected_spawn_egg.json",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/MadmanInfectedRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MadmanInfectedThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madman_infected_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/MadmanInfectedThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antidote",
+      "type": "potioneffect",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidote",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/potion/AntidoteMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MadmanInfectedOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madman_infected_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/MadmanInfectedOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntidotePotion",
+      "type": "potion",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidote_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Orange",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/item/OrangeItem.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/orange.json"
+        ]
+      }
+    },
+    {
+      "name": "Troll",
+      "type": "livingentity",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_ariel_dimension/forge/biome_modifier/troll_biome_modifier.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/troll_spawn_egg.json",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/TrollRenderer.java",
+          "src/main/java/net/mcreator/thearieldimension/entity/TrollEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TrollGiantEntityIsHurt",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_giant_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/TrollGiantEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelLog",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/block/AngelLogBlock.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/angel_log.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/angel_log.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/angel_log.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuicePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/OrangeJuicePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuice",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/orange_juice.json",
+          "src/main/java/net/mcreator/thearieldimension/item/OrangeJuiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuiceBrew",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/recipes/brewing/OrangeJuiceBrewBrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.the_ariel_dimension.acid": "Acid",
+      "biome.the_ariel_dimension.lost_jungle": "Lost Jungle",
+      "advancements.the_red_heavens.title": "The Blue Heavens",
+      "entity.the_ariel_dimension.skyborn": "Skyborn",
+      "biome.the_ariel_dimension.lost_savannah": "Lost Savannah",
+      "item.the_ariel_dimension.skyborn_orb": "Skyborn Orb",
+      "biome.the_ariel_dimension.ariel_woodlands": "Ariel Woodlands",
+      "entity.the_ariel_dimension.nether_beast": "Nether Beast",
+      "item.the_ariel_dimension.troll_spawn_egg": "Troll Spawn Egg",
+      "block.the_ariel_dimension.chalk": "Chalk",
+      "item.minecraft.splash_potion.effect.antidote_potion": "Splash Potion of Antidote",
+      "advancements.the_red_heavens.descr": "Travel to the Ariel Dimension",
+      "item.minecraft.splash_potion.effect.madman_virus": "Splash Potion of Madman Virus",
+      "biome.the_ariel_dimension.lost_desert": "Lost Desert",
+      "biome.the_ariel_dimension.ariel_mountains": "Ariel Mountains",
+      "item.minecraft.lingering_potion.effect.antidote_potion": "Lingering Potion of Antidote",
+      "item.the_ariel_dimension.skyborn_giant_spawn_egg": "Skyborn Giant Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.madman_virus": "Arrow of Madman Virus",
+      "item.the_ariel_dimension.the_ariel_dimension": "Septar of the Moon",
+      "advancements.i_have_the_power.descr": "Aquire a Skyborn Orb from Killing a Skyborn",
+      "item.minecraft.lingering_potion.effect.madman_virus": "Lingering Potion of Madman Virus",
+      "item.minecraft.potion.effect.flying_potion": "Potion of Flying",
+      "block.the_ariel_dimension.lost_world_portal": "Lost World Portal",
+      "effect.the_ariel_dimension.flying": "Flying",
+      "entity.the_ariel_dimension.madman_infected": "Infected Manman",
+      "item.minecraft.potion.effect.madman_virus": "Potion of Madman Virus",
+      "item.minecraft.potion.effect.antidote_potion": "Antidote",
+      "item.the_ariel_dimension.crystal_being_spawn_egg": "Crystal Being Spawn Egg",
+      "entity.the_ariel_dimension.troll": "Troll",
+      "biome.the_ariel_dimension.ariel_oceans": "Ariel Oceans",
+      "item.the_ariel_dimension.flying_beast_milk": "Flying Beast Milk",
+      "item.minecraft.tipped_arrow.effect.flying_potion": "Arrow of Flying",
+      "item.the_ariel_dimension.nether_beast_spawn_egg": "Nether Beast Spawn Egg",
+      "item.the_ariel_dimension.sky_guard_spawn_egg": "Sky Guard Spawn Egg",
+      "item.the_ariel_dimension.orange_juice": "Orange Juice",
+      "entity.the_ariel_dimension.sky_guard": "Sky Guard",
+      "entity.the_ariel_dimension.skyborn_giant": "Skyborn Giant",
+      "block.the_ariel_dimension.angel_log": "Angel Log",
+      "effect.the_ariel_dimension.antidote": "Antidote",
+      "advancements.i_have_the_power.title": "I HAVE THE POWER!",
+      "fluid.the_ariel_dimension.acid": "Acid",
+      "item.the_ariel_dimension.acid_bucket": "Acid Bucket",
+      "item.the_ariel_dimension.fire_bullet": "Fire Bullet",
+      "item.the_ariel_dimension.troll_giant_spawn_egg": "Troll Giant Spawn Egg",
+      "effect.the_ariel_dimension.doomed": "Doomed",
+      "item.minecraft.splash_potion.effect.flying_potion": "Splash Potion of Flying",
+      "item.minecraft.tipped_arrow.effect.antidote_potion": "Arrow of Antidote",
+      "item.the_ariel_dimension.skyborn_spawn_egg": "Skyborn Spawn Egg",
+      "entity.the_ariel_dimension.troll_giant": "Troll Giant",
+      "item.the_ariel_dimension.orange": "Orange",
+      "block.the_ariel_dimension.ariel_dimension_portal": "Ariel Dimension Portal Frame",
+      "item.the_ariel_dimension.madman_infected_spawn_egg": "Infected Manman Spawn Egg",
+      "entity.the_ariel_dimension.crystal_being": "Crystal Being",
+      "item.minecraft.lingering_potion.effect.flying_potion": "Lingering Potion of Flying"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_ariel_dimension",
+    "modName": "The Ariel Dimension",
+    "version": "1.0.0",
+    "author": "tjpru, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.thearieldimension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "the_ariel_dimension:block/angel_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "the_ariel_dimension:block/angel_log"
+    },
+    "axis=z": {
+      "model": "the_ariel_dimension:block/angel_log",
+      "x": 90
+    }
+  }
+}

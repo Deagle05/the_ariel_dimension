@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_ariel_dimension:block/chalktexture",
+    "particle": "the_ariel_dimension:block/chalktexture"
+  },
+  "render_type": "solid"
+}

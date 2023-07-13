@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_ariel_dimension:block/portal_frame",
+    "particle": "the_ariel_dimension:block/portal_frame"
+  },
+  "render_type": "solid"
+}

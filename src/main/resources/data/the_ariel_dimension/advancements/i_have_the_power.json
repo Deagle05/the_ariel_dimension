@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_ariel_dimension:skyborn_orb"
+    },
+    "title": {
+      "translate": "advancements.i_have_the_power.title"
+    },
+    "description": {
+      "translate": "advancements.i_have_the_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_have_the_power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_ariel_dimension:skyborn_orb"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_ariel_dimension:the_red_heavens"
+}

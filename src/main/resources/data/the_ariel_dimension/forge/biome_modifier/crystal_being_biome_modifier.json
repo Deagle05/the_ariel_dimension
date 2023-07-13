@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_ariel_dimension:ariel_mountains",
+  "spawners": {
+    "type": "the_ariel_dimension:crystal_being",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

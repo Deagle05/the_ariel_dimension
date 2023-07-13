@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_ariel_dimension:ariel_woodlands",
+  "spawners": {
+    "type": "the_ariel_dimension:sky_guard",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

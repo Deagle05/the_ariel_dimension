@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "orb",
+    "customModelName": "Normal",
+    "name": "Skyborn Orb",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:SkybornOrb"
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.splash_potion.throw"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 9.0,
+    "bulletKnockback": 6,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelSkybornOrb",
+    "customBulletModelTexture": "skybornorb.png",
+    "onBulletFlyingTick": {
+      "name": "SkybornOrbWhileProjectileFlyingTick"
+    }
+  }
+}
