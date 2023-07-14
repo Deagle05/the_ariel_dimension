@@ -11,12 +11,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.thearieldimension.client.renderer.TrollRenderer;
 import net.mcreator.thearieldimension.client.renderer.TrollGiantRenderer;
+import net.mcreator.thearieldimension.client.renderer.TractorRenderer;
 import net.mcreator.thearieldimension.client.renderer.SkybornRenderer;
 import net.mcreator.thearieldimension.client.renderer.SkybornOrbRenderer;
 import net.mcreator.thearieldimension.client.renderer.SkybornGiantRenderer;
 import net.mcreator.thearieldimension.client.renderer.SkyGuardRenderer;
 import net.mcreator.thearieldimension.client.renderer.NetherBeastRenderer;
 import net.mcreator.thearieldimension.client.renderer.MadmanInfectedRenderer;
+import net.mcreator.thearieldimension.client.renderer.HumanRenderer;
 import net.mcreator.thearieldimension.client.renderer.FireBulletRenderer;
 import net.mcreator.thearieldimension.client.renderer.CrystalBeingRenderer;
 
@@ -34,5 +36,7 @@ public class TheArielDimensionModEntityRenderers {
 		event.registerEntityRenderer(TheArielDimensionModEntities.SKYBORN_GIANT.get(), SkybornGiantRenderer::new);
 		event.registerEntityRenderer(TheArielDimensionModEntities.MADMAN_INFECTED.get(), MadmanInfectedRenderer::new);
 		event.registerEntityRenderer(TheArielDimensionModEntities.TROLL.get(), TrollRenderer::new);
+		event.registerEntityRenderer(TheArielDimensionModEntities.HUMAN.get(), HumanRenderer::new);
+		event.registerEntityRenderer(TheArielDimensionModEntities.TRACTOR.get(), TractorRenderer::new);
 	}
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.thearieldimension.client.model.Modelfirebullet;
 import net.mcreator.thearieldimension.client.model.ModelTrollgiant;
+import net.mcreator.thearieldimension.client.model.ModelTractor;
 import net.mcreator.thearieldimension.client.model.ModelSkyprotector;
 import net.mcreator.thearieldimension.client.model.ModelSkybornOrb;
 import net.mcreator.thearieldimension.client.model.ModelSkybornGiant;
@@ -21,6 +22,7 @@ import net.mcreator.thearieldimension.client.model.ModelCrystalBeing;
 public class TheArielDimensionModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelTractor.LAYER_LOCATION, ModelTractor::createBodyLayer);
 		event.registerLayerDefinition(ModelCrystalBeing.LAYER_LOCATION, ModelCrystalBeing::createBodyLayer);
 		event.registerLayerDefinition(ModelSkybornOrb.LAYER_LOCATION, ModelSkybornOrb::createBodyLayer);
 		event.registerLayerDefinition(ModelSkyborn.LAYER_LOCATION, ModelSkyborn::createBodyLayer);

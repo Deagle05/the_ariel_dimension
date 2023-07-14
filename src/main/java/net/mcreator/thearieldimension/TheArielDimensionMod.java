@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.thearieldimension.init.TheArielDimensionModPotions;
 import net.mcreator.thearieldimension.init.TheArielDimensionModParticleTypes;
 import net.mcreator.thearieldimension.init.TheArielDimensionModMobEffects;
+import net.mcreator.thearieldimension.init.TheArielDimensionModMenus;
 import net.mcreator.thearieldimension.init.TheArielDimensionModItems;
 import net.mcreator.thearieldimension.init.TheArielDimensionModFluids;
 import net.mcreator.thearieldimension.init.TheArielDimensionModFluidTypes;
@@ -63,6 +64,7 @@ public class TheArielDimensionMod {
 		TheArielDimensionModParticleTypes.REGISTRY.register(bus);
 		TheArielDimensionModMobEffects.REGISTRY.register(bus);
 		TheArielDimensionModPotions.REGISTRY.register(bus);
+		TheArielDimensionModMenus.REGISTRY.register(bus);
 
 		TheArielDimensionModFluids.REGISTRY.register(bus);
 		TheArielDimensionModFluidTypes.REGISTRY.register(bus);

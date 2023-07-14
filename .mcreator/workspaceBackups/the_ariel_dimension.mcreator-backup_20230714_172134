@@ -768,6 +768,95 @@
           }
         ]
       }
+    },
+    {
+      "name": "AngelLog",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/block/AngelLogBlock.java",
+          "src/main/resources/assets/the_ariel_dimension/models/block/angel_log.json",
+          "src/main/resources/assets/the_ariel_dimension/models/item/angel_log.json",
+          "src/main/resources/assets/the_ariel_dimension/blockstates/angel_log.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuicePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/OrangeJuicePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuice",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/orange_juice.json",
+          "src/main/java/net/mcreator/thearieldimension/item/OrangeJuiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuiceBrew",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/recipes/brewing/OrangeJuiceBrewBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/HumanEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/HumanRenderer.java",
+          "src/main/resources/assets/the_ariel_dimension/models/item/human_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -783,16 +872,16 @@
       "biome.the_ariel_dimension.ariel_woodlands": "Ariel Woodlands",
       "entity.the_ariel_dimension.nether_beast": "Nether Beast",
       "item.the_ariel_dimension.troll_spawn_egg": "Troll Spawn Egg",
-      "block.the_ariel_dimension.chalk": "Chalk",
       "item.minecraft.splash_potion.effect.antidote_potion": "Splash Potion of Antidote",
+      "block.the_ariel_dimension.chalk": "Chalk",
       "advancements.the_red_heavens.descr": "Travel to the Ariel Dimension",
       "item.minecraft.splash_potion.effect.madman_virus": "Splash Potion of Madman Virus",
       "biome.the_ariel_dimension.lost_desert": "Lost Desert",
       "biome.the_ariel_dimension.ariel_mountains": "Ariel Mountains",
       "item.minecraft.lingering_potion.effect.antidote_potion": "Lingering Potion of Antidote",
       "item.the_ariel_dimension.skyborn_giant_spawn_egg": "Skyborn Giant Spawn Egg",
-      "item.minecraft.tipped_arrow.effect.madman_virus": "Arrow of Madman Virus",
       "item.the_ariel_dimension.the_ariel_dimension": "Septar of the Moon",
+      "item.minecraft.tipped_arrow.effect.madman_virus": "Arrow of Madman Virus",
       "advancements.i_have_the_power.descr": "Aquire a Skyborn Orb from Killing a Skyborn",
       "item.minecraft.lingering_potion.effect.madman_virus": "Lingering Potion of Madman Virus",
       "item.minecraft.potion.effect.flying_potion": "Potion of Flying",
@@ -802,14 +891,18 @@
       "item.minecraft.potion.effect.madman_virus": "Potion of Madman Virus",
       "item.minecraft.potion.effect.antidote_potion": "Antidote",
       "item.the_ariel_dimension.crystal_being_spawn_egg": "Crystal Being Spawn Egg",
+      "entity.the_ariel_dimension.human": "Human",
       "entity.the_ariel_dimension.troll": "Troll",
       "biome.the_ariel_dimension.ariel_oceans": "Ariel Oceans",
       "item.the_ariel_dimension.flying_beast_milk": "Flying Beast Milk",
       "item.minecraft.tipped_arrow.effect.flying_potion": "Arrow of Flying",
       "item.the_ariel_dimension.nether_beast_spawn_egg": "Nether Beast Spawn Egg",
+      "item.the_ariel_dimension.human_spawn_egg": "Human Spawn Egg",
       "item.the_ariel_dimension.sky_guard_spawn_egg": "Sky Guard Spawn Egg",
+      "item.the_ariel_dimension.orange_juice": "Orange Juice",
       "entity.the_ariel_dimension.sky_guard": "Sky Guard",
       "entity.the_ariel_dimension.skyborn_giant": "Skyborn Giant",
+      "block.the_ariel_dimension.angel_log": "Angel Log",
       "effect.the_ariel_dimension.antidote": "Antidote",
       "advancements.i_have_the_power.title": "I HAVE THE POWER!",
       "fluid.the_ariel_dimension.acid": "Acid",

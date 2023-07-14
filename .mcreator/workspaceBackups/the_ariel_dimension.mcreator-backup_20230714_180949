@@ -798,8 +798,20 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -828,6 +840,20 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/thearieldimension/recipes/brewing/OrangeJuiceBrewBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/HumanEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/HumanRenderer.java"
         ]
       }
     }
@@ -864,6 +890,7 @@
       "item.minecraft.potion.effect.madman_virus": "Potion of Madman Virus",
       "item.minecraft.potion.effect.antidote_potion": "Antidote",
       "item.the_ariel_dimension.crystal_being_spawn_egg": "Crystal Being Spawn Egg",
+      "entity.the_ariel_dimension.human": "Human",
       "entity.the_ariel_dimension.troll": "Troll",
       "biome.the_ariel_dimension.ariel_oceans": "Ariel Oceans",
       "item.the_ariel_dimension.flying_beast_milk": "Flying Beast Milk",

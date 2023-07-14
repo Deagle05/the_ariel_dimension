@@ -18,12 +18,14 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.thearieldimension.entity.TrollGiantEntity;
 import net.mcreator.thearieldimension.entity.TrollEntity;
+import net.mcreator.thearieldimension.entity.TractorEntity;
 import net.mcreator.thearieldimension.entity.SkybornOrbEntity;
 import net.mcreator.thearieldimension.entity.SkybornGiantEntity;
 import net.mcreator.thearieldimension.entity.SkybornEntity;
 import net.mcreator.thearieldimension.entity.SkyGuardEntity;
 import net.mcreator.thearieldimension.entity.NetherBeastEntity;
 import net.mcreator.thearieldimension.entity.MadmanInfectedEntity;
+import net.mcreator.thearieldimension.entity.HumanEntity;
 import net.mcreator.thearieldimension.entity.FireBulletEntity;
 import net.mcreator.thearieldimension.entity.CrystalBeingEntity;
 import net.mcreator.thearieldimension.TheArielDimensionMod;
@@ -57,6 +59,12 @@ public class TheArielDimensionModEntities {
 			EntityType.Builder.<TrollEntity>of(TrollEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TrollEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HumanEntity>> HUMAN = register("human",
+			EntityType.Builder.<HumanEntity>of(HumanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HumanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TractorEntity>> TRACTOR = register("tractor",
+			EntityType.Builder.<TractorEntity>of(TractorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TractorEntity::new).fireImmune().sized(1.3f, 2.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -73,6 +81,8 @@ public class TheArielDimensionModEntities {
 			SkybornGiantEntity.init();
 			MadmanInfectedEntity.init();
 			TrollEntity.init();
+			HumanEntity.init();
+			TractorEntity.init();
 		});
 	}
 
@@ -86,5 +96,7 @@ public class TheArielDimensionModEntities {
 		event.put(SKYBORN_GIANT.get(), SkybornGiantEntity.createAttributes().build());
 		event.put(MADMAN_INFECTED.get(), MadmanInfectedEntity.createAttributes().build());
 		event.put(TROLL.get(), TrollEntity.createAttributes().build());
+		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
+		event.put(TRACTOR.get(), TractorEntity.createAttributes().build());
 	}
 }

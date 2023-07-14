@@ -784,6 +784,125 @@
           "src/main/resources/assets/the_ariel_dimension/blockstates/angel_log.json"
         ]
       }
+    },
+    {
+      "name": "OrangeJuicePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/OrangeJuicePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuice",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_ariel_dimension/models/item/orange_juice.json",
+          "src/main/java/net/mcreator/thearieldimension/item/OrangeJuiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangeJuiceBrew",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/recipes/brewing/OrangeJuiceBrewBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/HumanEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/HumanRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TractorPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tractor_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/procedures/TractorPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tractor",
+      "type": "livingentity",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tractor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/entity/TractorEntity.java",
+          "src/main/java/net/mcreator/thearieldimension/client/renderer/TractorRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TractorInvintory",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tractor_invintory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thearieldimension/world/inventory/TractorInvintoryMenu.java",
+          "src/main/java/net/mcreator/thearieldimension/client/gui/TractorInvintoryScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -818,12 +937,15 @@
       "item.minecraft.potion.effect.madman_virus": "Potion of Madman Virus",
       "item.minecraft.potion.effect.antidote_potion": "Antidote",
       "item.the_ariel_dimension.crystal_being_spawn_egg": "Crystal Being Spawn Egg",
+      "entity.the_ariel_dimension.human": "Human",
       "entity.the_ariel_dimension.troll": "Troll",
       "biome.the_ariel_dimension.ariel_oceans": "Ariel Oceans",
       "item.the_ariel_dimension.flying_beast_milk": "Flying Beast Milk",
       "item.minecraft.tipped_arrow.effect.flying_potion": "Arrow of Flying",
       "item.the_ariel_dimension.nether_beast_spawn_egg": "Nether Beast Spawn Egg",
+      "entity.the_ariel_dimension.tractor": "Tractor",
       "item.the_ariel_dimension.sky_guard_spawn_egg": "Sky Guard Spawn Egg",
+      "item.the_ariel_dimension.orange_juice": "Orange Juice",
       "entity.the_ariel_dimension.sky_guard": "Sky Guard",
       "entity.the_ariel_dimension.skyborn_giant": "Skyborn Giant",
       "block.the_ariel_dimension.angel_log": "Angel Log",
