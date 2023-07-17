@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.thearieldimension.entity.WildmanEntity;
 import net.mcreator.thearieldimension.entity.TrollGiantEntity;
 import net.mcreator.thearieldimension.entity.TrollEntity;
 import net.mcreator.thearieldimension.entity.TractorEntity;
@@ -64,7 +65,11 @@ public class TheArielDimensionModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TractorEntity>> TRACTOR = register("tractor",
-			EntityType.Builder.<TractorEntity>of(TractorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TractorEntity::new).fireImmune().sized(1.3f, 2.1f));
+			EntityType.Builder.<TractorEntity>of(TractorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TractorEntity::new).fireImmune().sized(1.5f, 2.1f));
+	public static final RegistryObject<EntityType<WildmanEntity>> WILDMAN = register("wildman",
+			EntityType.Builder.<WildmanEntity>of(WildmanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WildmanEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -83,6 +88,7 @@ public class TheArielDimensionModEntities {
 			TrollEntity.init();
 			HumanEntity.init();
 			TractorEntity.init();
+			WildmanEntity.init();
 		});
 	}
 
@@ -98,5 +104,6 @@ public class TheArielDimensionModEntities {
 		event.put(TROLL.get(), TrollEntity.createAttributes().build());
 		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
 		event.put(TRACTOR.get(), TractorEntity.createAttributes().build());
+		event.put(WILDMAN.get(), WildmanEntity.createAttributes().build());
 	}
 }

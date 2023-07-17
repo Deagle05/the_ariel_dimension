@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "the_ariel_dimension:ariel_woodlands",
+  "features": "the_ariel_dimension:angel_tree",
+  "step": "surface_structures"
+}

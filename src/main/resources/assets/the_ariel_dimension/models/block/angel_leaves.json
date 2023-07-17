@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "the_ariel_dimension:block/angel_leaves",
+    "particle": "the_ariel_dimension:block/angel_leaves"
+  }
+}

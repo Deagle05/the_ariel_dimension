@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "the_ariel_dimension:end_outpoststructure",
+  "step": "surface_structures"
+}

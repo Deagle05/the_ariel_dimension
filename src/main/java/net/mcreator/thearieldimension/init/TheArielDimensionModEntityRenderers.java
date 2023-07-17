@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.thearieldimension.client.renderer.WildmanRenderer;
 import net.mcreator.thearieldimension.client.renderer.TrollRenderer;
 import net.mcreator.thearieldimension.client.renderer.TrollGiantRenderer;
 import net.mcreator.thearieldimension.client.renderer.TractorRenderer;
@@ -38,5 +39,6 @@ public class TheArielDimensionModEntityRenderers {
 		event.registerEntityRenderer(TheArielDimensionModEntities.TROLL.get(), TrollRenderer::new);
 		event.registerEntityRenderer(TheArielDimensionModEntities.HUMAN.get(), HumanRenderer::new);
 		event.registerEntityRenderer(TheArielDimensionModEntities.TRACTOR.get(), TractorRenderer::new);
+		event.registerEntityRenderer(TheArielDimensionModEntities.WILDMAN.get(), WildmanRenderer::new);
 	}
 }

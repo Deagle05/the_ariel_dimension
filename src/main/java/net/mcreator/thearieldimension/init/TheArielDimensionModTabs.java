@@ -33,6 +33,7 @@ public class TheArielDimensionModTabs {
 			tabData.accept(TheArielDimensionModItems.SKYBORN_GIANT_SPAWN_EGG.get());
 			tabData.accept(TheArielDimensionModItems.MADMAN_INFECTED_SPAWN_EGG.get());
 			tabData.accept(TheArielDimensionModItems.TROLL_SPAWN_EGG.get());
+			tabData.accept(TheArielDimensionModItems.WILDMAN_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
@@ -42,16 +43,19 @@ public class TheArielDimensionModTabs {
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(TheArielDimensionModBlocks.CHALK.get().asItem());
 			tabData.accept(TheArielDimensionModBlocks.ANGEL_LOG.get().asItem());
+			tabData.accept(TheArielDimensionModBlocks.ANGEL_LEAVES.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TheArielDimensionModItems.THE_ARIEL_DIMENSION.get());
+			tabData.accept(TheArielDimensionModItems.TRACTOR_ITEM.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(TheArielDimensionModItems.FLYING_BEAST_MILK.get());
 			tabData.accept(TheArielDimensionModItems.ORANGE.get());
 			tabData.accept(TheArielDimensionModItems.ORANGE_JUICE.get());
+			tabData.accept(TheArielDimensionModItems.SAPPHIRE_APPLE.get());
 		}
 	}
 }

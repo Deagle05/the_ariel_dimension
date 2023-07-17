@@ -4,6 +4,7 @@
     "the_ariel_dimension:chalk",
     "minecraft:grass_block",
     "minecraft:dirt",
-    "minecraft:gravel"
+    "minecraft:gravel",
+    "minecraft:air"
   ]
 }

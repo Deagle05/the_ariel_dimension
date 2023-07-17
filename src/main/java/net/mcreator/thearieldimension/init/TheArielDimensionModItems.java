@@ -13,8 +13,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.thearieldimension.item.TractorItemItem;
 import net.mcreator.thearieldimension.item.TheArielDimensionItem;
 import net.mcreator.thearieldimension.item.SkybornOrbItem;
+import net.mcreator.thearieldimension.item.SapphireAppleItem;
 import net.mcreator.thearieldimension.item.OrangeJuiceItem;
 import net.mcreator.thearieldimension.item.OrangeItem;
 import net.mcreator.thearieldimension.item.FlyingBeastMilkItem;
@@ -43,6 +45,10 @@ public class TheArielDimensionModItems {
 	public static final RegistryObject<Item> TROLL_SPAWN_EGG = REGISTRY.register("troll_spawn_egg", () -> new ForgeSpawnEggItem(TheArielDimensionModEntities.TROLL, -16747776, -10205696, new Item.Properties()));
 	public static final RegistryObject<Item> ANGEL_LOG = block(TheArielDimensionModBlocks.ANGEL_LOG);
 	public static final RegistryObject<Item> ORANGE_JUICE = REGISTRY.register("orange_juice", () -> new OrangeJuiceItem());
+	public static final RegistryObject<Item> SAPPHIRE_APPLE = REGISTRY.register("sapphire_apple", () -> new SapphireAppleItem());
+	public static final RegistryObject<Item> ANGEL_LEAVES = block(TheArielDimensionModBlocks.ANGEL_LEAVES);
+	public static final RegistryObject<Item> TRACTOR_ITEM = REGISTRY.register("tractor_item", () -> new TractorItemItem());
+	public static final RegistryObject<Item> WILDMAN_SPAWN_EGG = REGISTRY.register("wildman_spawn_egg", () -> new ForgeSpawnEggItem(TheArielDimensionModEntities.WILDMAN, -139, -12177920, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

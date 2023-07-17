@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "the_ariel_dimension:lost_world_landscape",
+  "step": "raw_generation"
+}

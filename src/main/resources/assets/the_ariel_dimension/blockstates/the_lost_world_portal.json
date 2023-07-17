@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_ariel_dimension:block/the_lost_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_ariel_dimension:block/the_lost_world_portal_ns"
+    }
+  }
+}

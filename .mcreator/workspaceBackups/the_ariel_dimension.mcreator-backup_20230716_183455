@@ -899,10 +899,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -1057,37 +1053,6 @@
           "src/main/java/net/mcreator/thearieldimension/world/features/EndOutpoststructureFeature.java"
         ]
       }
-    },
-    {
-      "name": "TractorOnEntityTickUpdate",
-      "type": "procedure",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tractor_on_entity_tick_update",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/thearieldimension/procedures/TractorOnEntityTickUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -1104,15 +1069,15 @@
       "biome.the_ariel_dimension.ariel_woodlands": "Ariel Woodlands",
       "entity.the_ariel_dimension.nether_beast": "Nether Beast",
       "item.the_ariel_dimension.troll_spawn_egg": "Troll Spawn Egg",
-      "item.minecraft.splash_potion.effect.antidote_potion": "Splash Potion of Antidote",
       "block.the_ariel_dimension.chalk": "Chalk",
+      "item.minecraft.splash_potion.effect.antidote_potion": "Splash Potion of Antidote",
       "advancements.the_red_heavens.descr": "Travel to the Ariel Dimension",
       "item.minecraft.splash_potion.effect.madman_virus": "Splash Potion of Madman Virus",
       "biome.the_ariel_dimension.ariel_mountains": "Ariel Mountains",
       "item.minecraft.lingering_potion.effect.antidote_potion": "Lingering Potion of Antidote",
       "item.the_ariel_dimension.skyborn_giant_spawn_egg": "Skyborn Giant Spawn Egg",
-      "item.minecraft.tipped_arrow.effect.madman_virus": "Arrow of Madman Virus",
       "item.the_ariel_dimension.the_ariel_dimension": "Septar of the Moon",
+      "item.minecraft.tipped_arrow.effect.madman_virus": "Arrow of Madman Virus",
       "advancements.i_have_the_power.descr": "Aquire a Skyborn Orb from Killing a Skyborn",
       "item.minecraft.lingering_potion.effect.madman_virus": "Lingering Potion of Madman Virus",
       "item.minecraft.potion.effect.flying_potion": "Potion of Flying",

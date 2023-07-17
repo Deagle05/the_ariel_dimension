@@ -36,6 +36,7 @@ import net.mcreator.thearieldimension.init.TheArielDimensionModMenus;
 import net.mcreator.thearieldimension.init.TheArielDimensionModItems;
 import net.mcreator.thearieldimension.init.TheArielDimensionModFluids;
 import net.mcreator.thearieldimension.init.TheArielDimensionModFluidTypes;
+import net.mcreator.thearieldimension.init.TheArielDimensionModFeatures;
 import net.mcreator.thearieldimension.init.TheArielDimensionModEntities;
 import net.mcreator.thearieldimension.init.TheArielDimensionModBlocks;
 
@@ -65,6 +66,7 @@ public class TheArielDimensionMod {
 		TheArielDimensionModMobEffects.REGISTRY.register(bus);
 		TheArielDimensionModPotions.REGISTRY.register(bus);
 		TheArielDimensionModMenus.REGISTRY.register(bus);
+		TheArielDimensionModFeatures.REGISTRY.register(bus);
 
 		TheArielDimensionModFluids.REGISTRY.register(bus);
 		TheArielDimensionModFluidTypes.REGISTRY.register(bus);

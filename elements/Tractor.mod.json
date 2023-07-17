@@ -10,10 +10,10 @@
     "solidBoundingBox": {
       "fixedValue": true
     },
-    "modelWidth": 1.3,
+    "modelWidth": 1.5,
     "modelHeight": 2.1,
     "modelShadowSize": 1.0,
-    "mountedYOffset": -1.5,
+    "mountedYOffset": -1.3,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1,
@@ -61,8 +61,8 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "guiBoundTo": "TractorInvintory",
+    "inventorySize": 15,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": true,
@@ -95,6 +95,9 @@
     },
     "stepSound": {
       "value": ""
+    },
+    "onMobTickUpdate": {
+      "name": "TractorOnEntityTickUpdate"
     },
     "hasAI": false,
     "aiBase": "(none)",
